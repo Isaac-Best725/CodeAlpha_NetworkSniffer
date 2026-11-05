@@ -1,0 +1,18 @@
+# CodeAlpha Cybersecurity Internship — Task 1: Basic Network Sniffer
+
+## 📌 Project Overview
+This repository contains a lightweight Python-based **Network Sniffer** developed using the `scapy` library as part of the CodeAlpha Cybersecurity Internship. The tool captures and inspects real-time IPv4 network packets, extracting critical Layer 3 and Layer 4 header details.
+
+## 🚀 Features
+- **Live Packet Capture:** Sniffs incoming and outgoing IPv4 traffic using Scapy's `sniff()` function.
+- **Protocol Identification:** Categorizes packet protocols including **TCP**, **UDP**, and **ICMP**.
+- **Address Parsing:** Displays Source IP and Destination IP addresses for captured packets.
+- **Payload Inspection:** Extracts and displays raw payload contents up to 50 bytes.
+
+## 🛠️ Prerequisites & Installation
+Ensure Python 3 and Scapy are installed on your Linux system:
+
+```bash
+sudo apt update
+sudo apt install python3-scapy -y
+
